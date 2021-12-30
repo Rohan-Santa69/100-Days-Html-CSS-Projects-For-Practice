@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 50%;
+    height: 53vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.column1{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(31, 77%, 52%);
+}
+.column2{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(184, 100%, 22%)
+}
+.column3{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(179, 100%, 13%)
+}
+.inside-container{
+    height: 90%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.inside-container h3{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.inside-container p{
+    font-size: 11px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.inside-container button {
+    border: none;
+    width: 110px;
+    height: 38px;
+    border-radius: 32px;
+    font-size: 18px;
+    color: hsl(31, 77%, 52%);
+}
+.inside-container img{
+    width: 50px;
+}

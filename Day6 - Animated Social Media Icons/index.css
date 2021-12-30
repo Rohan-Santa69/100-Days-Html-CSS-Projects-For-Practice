@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1C2226;
+}
+.Social-icons a .fa{
+  margin: 0 15px;
+  padding-top: 15px;
+  font-size: 30px;
+  color: black;
+  width: 60px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 5px 4px rgba(0, 0, 255, 0.5);
+}
+.Social-icons a .fa{
+  transition: 1s;
+}
+.Social-icons a .fa:hover{
+  transform: scale(2.8);
+}

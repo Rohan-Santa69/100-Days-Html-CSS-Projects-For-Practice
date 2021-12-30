@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    padding: 0 8%;
+}
+.col{
+    flex-basis: 50%;
+}
+img{
+    height: 220px;
+    width: 200px;
+    margin: 3px 3px 3px 3px;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.7);
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.8);
+}
+#images{
+    padding-left: 10%;
+}
+h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+p{
+    font-size: 20px;
+}
